@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import { ConvexClientProvider } from "@/components/convex-client-provider";
 
 import { Providers } from "@/Provider";
