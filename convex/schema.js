@@ -15,7 +15,7 @@ export default defineSchema({
 
   // Expenses
   expenses: defineTable({
-    description: v.string(),
+    description: v.optional(v.string()),
     amount: v.number(),
     category: v.optional(v.string()),
     date: v.number(), // timestamp
